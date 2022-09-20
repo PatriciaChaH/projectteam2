@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Copse', serif;
+    background-color:rgba(231, 238, 243, 1);
+    margin: 0;
+}
+
+h1{ font-size: 2.7em;}
+h2{ font-size: 1.9em;}
+h3{ font-size: 1.5em;}
+h4{ font-size: 1em;}
+p{ font-size: 1em;}
+ul{ list-style: none;}
+li{font-size: 1.0em;}
+
+button{
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    right: 0px;
+    position: right;
+}
+
+button:hover{
+    background-color: rgba(228, 225, 139, 0.83);
+    right: 0px;
+}
+
+.container{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    left:0px;
+}
+
+.header{
+    width: 90%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: right;
+    display: grid;
+    background-color: white;
+}
+
+header.mainmenu-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: right;
+    
+}
+
+header.nav{
+    width: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(209, 210, 208);
+    padding: var(--padding-container);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: right;
+    padding: 25px;
+}
+
+#usuarioevaluado{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    left:0px;
+}
+
+
+#usuarioevaluado.container{
+    background-color: white;
+    background-image: radial-gradient(#444cf7 0.5px, #fcfcfc 0.5px);
+    background-size: 100px 200px;
+    background-position: left;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px,auto));
+    text-align: center;
+    padding: 200px 12px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 40vh;
+    width: 30vh;
+    left:0px;
+}
+
+#usuarioevaluado_picture{
+    background-image: linear-gradient(0deg);
+    background-position: center;
+    margin: 20px;
+}
+
+.textos-header h1{
+    font-size:10px;
+    color:black
+}
+
+.textos-header h2{
+    font-size: 5px;
+    color:black
+}
+
+
+
+.mainmenu{
+    margin-left: 340px;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    text-align: right;
+}
+
+.knowledge_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items:center;
+}
+
+.usuarioevaluado_picture{
+    max-width: 10px;
+    margin: center;
+}
+
+.knowledge_img{
+    width: 20%;
+    display: block;
+}
+
+
+.contenedorEvaluadores{
+    background-color: #fcfcfc;
+    background-image: radial-gradient(#444cf7 0.5px, #fcfcfc 0.5px);
+    background-size: 100px 200px;
+    background-position: right;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px,auto));
+    width:30%;
+    height:70vh;
+}
+
+footer{
+    background-color: white;
+}
+
+footer p{
+    margin: 0;
+    padding: 20px;
+    color:black;
+    grid-auto-flow: column;
+}
+
+footer.container{
+    height: 70px;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 10px 10px, 0 0;
+}
+
+img{
+    float: left;
+}
+
