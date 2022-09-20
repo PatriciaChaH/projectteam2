@@ -23,6 +23,7 @@ h1 {
 
 .login {
     text-align: center;
+    max-width: 500px;
 }
 
 .img-login{
@@ -45,4 +46,9 @@ button {
     height: 37px;
     width: 175px;
     background-color: lightseagreen;
+    font-size: 18px;
+}
+
+a {
+    color: black;
 }
