@@ -10,25 +10,32 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
 .front-page {
     display: flex;
     justify-content: center;
     flex-direction: center;
     margin-top: 20px;
     min-width: 360px;
-    max-width: 800px;
+    max-width: 1000px;
     box-sizing:border-box;
-    background-color: blueviolet;
+    background-color: lightgrey;
 }
 
 .login {
     text-align: center;
-    max-width: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 .img-login{
     width: 100px;
     height: 100px;
+    padding-bottom: 15px;
 }
 
 .img-empresarial {
@@ -39,16 +46,23 @@ h1 {
 input {
     border-radius: 20px;
     height: 30px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 button {
     border-radius: 20px;
     height: 37px;
     width: 175px;
-    background-color: lightseagreen;
+    background-color: #3BB54A;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 a {
     color: black;
+}
+
+p {
+    margin-top: 30px;
 }
