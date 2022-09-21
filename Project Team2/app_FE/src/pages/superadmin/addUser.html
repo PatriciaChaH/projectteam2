@@ -17,21 +17,101 @@
             <img class="imageUser" src="../../assets/image/perfil.png" alt="Image perfil">
             <span><h3 class="tittle">Dependencia</h3>
             <h3 class="tittle">Cargo</h3></span>
-            <button class="button" type="submit"><img class="imageLogOut" src="../../assets/image/logout.png" /> 
+            <button class="buttonLogOut" type="submit"><img class="imageLogOut" src="../../assets/image/logout.png" /> 
                 Cerrar sesión</button>
-        </div>
-        <div class="divForm">
-            <form>
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname">
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname">
-              </form>
         </div>
             <button class="button">Inicio </button>
             <button class="button">Agregar usuario</button>
             <button class="button">Editar usuario</button>
             <button class="button">Gestión de evaluaciones</button>
+        <div class="divForm">
+            <form>
+                <h2 class="tittlet">Datos personales</h2>
+            <div class="Div">
+                <label class="tittle" for="tid">Tipo de documento:</label>
+                <input class="input" type="text" id="tid" name="tid">
+                <label class="tittle" for="id">N° Documento:</label>
+                <input class="input" type="text" id="id" name="id">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="surnames">Apellidos:</label>
+                <input class="input" type="text" id="surnames" name="surnames">
+                <label class="tittle" for="names">Nombres:</label>
+                <input class="input" type="text" id="names" name="names">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="birthday">Fecha de nacimiento:</label>
+                <input class="input" type="text" id="birthday" name="birthday">
+                <label class="tittle" for="age">Edad:</label>
+                <input class="input" type="text" id="age" name="age">
+                <label class="tittle" for="status">Estado civil:</label>
+                <input class="input" type="text" id="status" name="status"><br>
+            </div>    
+            <div class="Div">   
+                <label class="tittle" for="email">Correo electrónico:</label>
+                <input class="input" type="text" id="email" name="email">
+                <label class="tittle" for="phone">N° Celular:</label>
+                <input class="input" type="text" id="phone" name="phone"><br>
+            </div> 
+            <div class="Div">
+                <label class="tittle" for="address">Dirección:</label>
+                <input class="input" type="text" id="address" name="address">
+                <label class="tittle" for="barrio">Barrio:</label>
+                <input class="input" type="text" id="barrio" name="barrio">
+                <label class="tittle" for="estrato">Estrato:</label>
+                <input class="input" type="text" id="estrato" name="estrato"><br>
+            </div>
+            <div class="Div">
+                <label class="tittle" for="contact">Contacto emergencia:</label>
+                <input class="input" type="text" id="contact" name="contact">
+                <label class="tittle" for="contactnumber">Teléfono:</label>
+                <input class="input" type="text" id="contactnumber" name="contactnumber">
+                <label class="tittle" for="relationship">Parentesco:</label>
+                <input class="input" type="text" id="relationship" name="relationship">
+            </div>
+                <h2 class="tittlet">Información laboral</h2>
+            <div class="Div">
+                <label class="tittle" for="dependencia">Dependencia:</label>
+                <input class="input" type="text" id="dependencia" name="dependencia">
+                <label class="tittle" for="cargo">Cargo:</label>
+                <input class="input" type="text" id="cargo" name="cargo">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="contrato">Tipo de contrato:</label>
+                <input class="input" type="text" id="contrato" name="contrato">
+                <label class="tittle" for="salario">Salario devengado:</label>
+                <input class="input" type="text" id="salario" name="salario">
+            </div> 
+            <div class="Div">
+                <label class="tittle" for="ingreso">Fecha Ingreso:</label>
+                <input class="input" type="text" id="ingreso" name="ingreso">
+                <label class="tittle" for="ffinal">Fecha finalización contrato:</label>
+                <input class="input" type="text" id="ffinal" name="ffinal">
+            </div>
+            <div class="DivSwitch">
+                    <h4 class="tittle">Administrador</h4>
+                <div class="switch-button"><br>
+                    <!-- Checkbox -->
+                    <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                    <!-- Botón -->
+                    <label for="switch-label" class="switch-button__label"></label>
+                </div>
+            </div>         
+            <div class="DivSwitch">
+                <h4 class="tittle">Superadministrador</h4><br>  
+                <div class="switch-button"><br>
+                    <!-- Checkbox -->
+                    <input type="checkbox" name="switch-button2" id="switch-label2" class="switch-button__checkbox">
+                    <!-- Botón -->
+                    <label for="switch-label2" class="switch-button__label"></label>
+                </div>
+                <div class="DivSave">
+                    <button class="buttonSave" type="submit">Guardar</button>
+                </div>  
+            </div> 
+            </div>
+            </form>
+        </div>
     </div>
 
 </body>

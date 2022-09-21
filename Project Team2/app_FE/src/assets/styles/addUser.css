@@ -7,11 +7,11 @@ body{
     max-width: 1200px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     overflow: hidden;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: blueviolet;
 }
 
 .button{
@@ -29,12 +29,53 @@ body{
     color: rgba(0, 0, 0, 0.753);
 }
 
-
 .button:hover {
     cursor: pointer;
     background-color: #E4E18B;
     color: black;
+} 
+
+.buttonLogOut{
+    border-radius: 5px;
+    height: 5vh;
+    width: 13vw;
+    margin-top: 5px;
+    flex-direction: center;
+    background-color: beige;
+    font-family: 'Copse', serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 0.9em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+
+.buttonLogOut:hover {
+    cursor: pointer;
+    background-color: rgba(221, 128, 128, 0.959);
+    color: black;
 }   
+
+.buttonSave{
+    border-radius: 5px;
+    height: 5vh;
+    width: 13vw;
+    margin-top: 5px;
+    background-color: beige;
+    font-family: 'Copse', serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 0.9em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.buttonSave:hover {
+    cursor: pointer;
+    background-color: rgba(72, 219, 72, 0.966);
+    color: black;
+}  
 
 .DivUser
 {
@@ -42,7 +83,7 @@ body{
    height: 70vh;
    max-width: 500px;
    min-width: 300px;
-   margin: 60px 6% 10px 2%;
+   margin: 60px 0% 10px 2%;
    border-radius: 10px;
    display: flex;
    justify-content: center;
@@ -68,19 +109,121 @@ body{
     color: black;
     font-style: normal;
     text-align: center;
+    font-weight: bolder;
+    margin-left: 1%;
+    margin-right: 0.2%;
+}
+
+.tittlet{
+    font-family: 'Copse', serif;
+    color: black;
+    font-style: normal;
+    margin-left: 1%;
+    text-decoration: underline;
+    margin-top: 1%;
+
 }
 
 .input{
-    color: #CAD1D8 ;
+    height: 12px;
+    width: 10vw;
+    min-width: 80px;
+    max-width: 800px;
+    max-height: 100%;    
+    color: #CAD1D8;
+    border-radius: 5px;
+    display: inline-block;
+    
+    
 }
 
 .divForm{
-    width: 500vw; 
+    width: 100vw; 
     height: 70vh;
-    max-width: 1200px;
-    min-width: 600px;
-    margin-top: auto;
-    margin-bottom: 10px;
+    max-height: 100%;
+    max-width: 62%;
+    margin-top: 5%;
+    margin: 60px 2% 10px 25%;
     border-radius: 10px;
-    background-color:aqua;
+    display: flex;
+    position: absolute;
+    justify-content: left;
+}
+
+.Div{
+    width: 840px;
+    min-width: 300px;
+    max-width: 100%;
+    min-height: 10px;
+    margin-top: 0.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.DivSwitch{
+    width: 5px;
+    height: 35px;
+    min-width: 220px;
+    max-width: 100%;
+    min-height: 10px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+}
+
+.DivSave{
+    width: 3px;
+    height: 35px;
+    min-width: 170px;
+    max-width: 100%;
+    min-height: 10px;
+    margin-left: 200%;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: center;
+
+}
+
+
+
+
+
+:root {
+    --color-green: #00a878;
+    --color-red: #fe5e41;
+    --color-button: #fdffff;
+    --color-black: #000;
+}
+.switch-button {
+    display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-red);
+    width: 3rem;
+    height: 1rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
 }
