@@ -50,6 +50,10 @@ input {
     margin-top: 20px;
 }
 
+input::placeholder {
+    padding-left: 10px;
+}
+
 button {
     border-radius: 20px;
     height: 37px;

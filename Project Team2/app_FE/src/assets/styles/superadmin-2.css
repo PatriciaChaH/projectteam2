@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav {
+    display: block;
+}
+
+.super-profile {
+    display: flex;
+    background-color: blue;
+}
+
+.usuario {
+    text-align: center;
+}
+
+.front-page {
+    text-align: center;
+}
+
+.img-perfil {
+    width: 100px;
+    height: 100px;
+}
