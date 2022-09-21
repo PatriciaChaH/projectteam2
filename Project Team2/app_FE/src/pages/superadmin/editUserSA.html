@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shorcut icon" href="../../assets/image/beer_icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Copse&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../assets/styles/editUserSA.css"/>
+    <title>Editar usuario</title>
+</head>
+<body>
+    <div class="content">
+        <div class="DivUser">
+            <img class="imageUser" src="../../assets/image/perfil.png" alt="Image perfil">
+            <span><h3 class="tittle">Dependencia</h3>
+            <h3 class="tittle">Cargo</h3></span>
+            <button class="buttonLogOut" type="submit"><img class="imageLogOut" src="../../assets/image/logout.png" /> 
+                Cerrar sesión</button>
+        </div>
+        <div>
+            <button class="button">Inicio </button>
+            <button class="button">Agregar usuario</button>
+            <button class="button" style="background-color: #E4E18B;">Editar usuario</button>
+            <button class="button">Gestión de evaluaciones</button>
+        </div>
+        <div class="divForm">
+            <form>
+                <h2 class="tittlet">Datos personales</h2>
+            <div class="Div">
+                <label class="tittle" for="tid">Tipo de documento:</label>
+                <input class="input" type="text" id="tid" name="tid" value="Cédula ciudadanía" placeholder="">
+                <label class="tittle" for="id">N° Documento:</label>
+                <input class="input" type="text" id="id" name="id" value="13234499" placeholder="">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="surnames">Apellidos:</label>
+                <input class="input" type="text" id="surnames" name="surnames" value="Perez Perez" placeholder="" >
+                <label class="tittle" for="names">Nombres:</label>
+                <input class="input" type="text" id="names" name="names" value="Pepito" placeholder="">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="birthday">Fecha de nacimiento:</label>
+                <input class="input" type="text" id="birthday" name="birthday" value="15/09/1984" placeholder="">
+                <label class="tittle" for="age">Edad:</label>
+                <input class="input" type="text" id="age" name="age" value="40" placeholder="">
+                <label class="tittle" for="status">Estado civil:</label>
+                <input class="input" type="text" id="status" name="status" value="Soltero" placeholder=""><br>
+            </div>    
+            <div class="Div">   
+                <label class="tittle" for="email">Correo electrónico:</label>
+                <input class="input" type="text" id="email" name="" value="pepitop@gmail.com" placeholder="">
+                <label class="tittle" for="phone">N° Celular:</label>
+                <input class="input" type="text" id="phone" name="phone" value="5555555555" placeholder=""><br>
+            </div> 
+            <div class="Div">
+                <label class="tittle" for="address">Dirección:</label>
+                <input class="input" type="text" id="address" name="address" value="Cra 10A 20 16" placeholder="">
+                <label class="tittle" for="barrio">Barrio:</label>
+                <input class="input" type="text" id="barrio" name="barrio" value="Aurora" placeholder="">
+                <label class="tittle" for="estrato">Estrato:</label>
+                <input class="input" type="text" id="estrato" name="estrato" value="2" placeholder=""><br>
+            </div>
+            <div class="Div">
+                <label class="tittle" for="contact">Contacto emergencia:</label>
+                <input class="input" type="text" id="contact" name="contact" value="Pepita Pérez" placeholder="">
+                <label class="tittle" for="contactnumber">Teléfono:</label>
+                <input class="input" type="text" id="contactnumber" name="contactnumber" value="3322522" placeholder="">
+                <label class="tittle" for="relationship">Parentesco:</label>
+                <input class="input" type="text" id="relationship" name="relationship" value="Hija" placeholder="">
+            </div>
+                <h2 class="tittlet">Información laboral</h2>
+            <div class="Div">
+                <label class="tittle" for="dependencia">Dependencia:</label>
+                <input class="input" type="text" id="dependencia" name="dependencia" value="Tecnología" placeholder="">
+                <label class="tittle" for="cargo">Cargo:</label>
+                <input class="input" type="text" id="cargo" name="cargo" value="Developer backend Jr" placeholder="">
+            </div>
+            <div class="Div">
+                <label class="tittle" for="contrato">Tipo de contrato:</label>
+                <input class="input" type="text" id="contrato" name="contrato" value="Indefinido" placeholder="">
+                <label class="tittle" for="salario">Salario devengado:</label>
+                <input class="input" type="text" id="salario" name="salario" value="$4.000.000" placeholder="">
+            </div> 
+            <div class="Div">
+                <label class="tittle" for="ingreso">Fecha Ingreso:</label>
+                <input class="input" type="text" id="ingreso" name="ingreso" value="12/03/2021" placeholder="">
+                <label class="tittle" for="ffinal">Fecha finalización contrato:</label>
+                <input class="input" type="text" id="ffinal" name="ffinal" value="No aplica" placeholder="">
+            </div>
+
+            <div class="DivSwitch">
+                <div class="DivS">
+                        <label class="tittle" for="Admin">Administrador:</label>
+                    <div class="switch-button"><br>
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label" class="switch-button__label"></label>
+                    </div>   
+                        <label class="tittle" for="Admin">Superadministrador:</label> 
+                    <div class="switch-button">
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button2" id="switch-label2" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label2" class="switch-button__label"></label>
+                    </div>
+                        <label class="tittle" for="offuser">Desactivar usuario:</label> 
+                    <div class="switch-button">
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button3" id="switch-label3" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label3" class="switch-button__label"></label>
+                    </div>
+                    <div class="DivSave">
+                        <button class="buttonSave" type="submit">Guardar</button>
+                    </div>  
+                </div>      
+            </div> 
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
