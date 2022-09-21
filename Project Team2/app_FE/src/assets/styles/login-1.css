@@ -16,7 +16,7 @@ h2 {
 
 .front-page {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: center;
     margin-top: 20px;
     min-width: 360px;
