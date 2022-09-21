@@ -1,29 +1,110 @@
-body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+* {
+    box-sizing: border-box;
+}
+
+body{
     font-family: 'Noto Sans', sans-serif;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav {
-    display: block;
+    position: relative;
+    right: 0;
 }
 
 .super-profile {
     display: flex;
-    background-color: blue;
+    flex-direction: row;
 }
 
-.usuario {
+button {
+    border-radius: 5px;
+    height: 5vh;
+    width: 13vw;
+    margin-top: 5px;
+    flex-direction: center;
+    background-color: beige;
+    font-weight: bolder;
+    font-size: 0.9em;
     text-align: center;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #E4E18B;
+    color: black;
+} 
+
+.buttonLogOut{
+    border-radius: 5px;
+    height: 5vh;
+    width: 13vw;
+    margin-top: 5px;
+    flex-direction: row;
+    background-color: beige;
+    font-weight: bolder;
+    font-size: 0.9em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+
+.buttonLogOut:hover {
+    cursor: pointer;
+    background-color: rgba(221, 128, 128, 0.959);
+    color: black;
+}   
+
+.usuario {
+   width: 20vw; 
+   height: 70vh;
+   max-width: 500px;
+   min-width: 300px;
+   margin: 60px 0% 10px 2%;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-color:#E2E5E7;
+   flex: 30%;
+}
+
+.img-perfil{
+    width: 100px;
+    height: 100px;
 }
 
 .front-page {
-    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 70%;
+    padding: 35px;
 }
 
-.img-perfil {
-    width: 100px;
-    height: 100px;
+.logo {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageLogOut{
+    width: 20px;
+    height: 20px;
+    flex-direction: center;
+    padding-right: 5px;
 }
