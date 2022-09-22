@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../assets/styles/superadmin-2.css"/>
     <title>Perfil Superadministrador</title>
 </head>
 <body>
-    <div>
+    <div class="nav">
         <button>Inicio</button>
         <button>Agregar usuario</button>
         <button>Editar usuario</button>
         <button>Gestión de evaluaciones</button>
     </div>
-    <div>
-        <!-- Imagen de usuario-->
-        <p>Área de tecnología</p>
-        <p>Ingeniero</p>
-        <button type="submit">Cerrar sesión</button>
+    <div class="super-profile">
+        <div class="usuario">
+            <img class="img-perfil" src="../../assets/image/perfil.png">
+            <p>Área de Tecnología</p>
+            <p>Ingeniero</p>
+            <button class="buttonLogOut" type="submit"><img class="imageLogOut" src="../../assets/image/logout.png">Cerrar sesión</button>
+        </div>
+        <div class="front-page">
+            <h2>BIENVENIDO <!-- Nombre de administrador  --></h2>
+            <div class="logo">
+                <h3>COMPAÑIA DE LAS CERVECERÍAS UNIDAS</h3>
+                <img src="../../assets/image/beer.png">
+                <h3>SUPERADMINISTRADOR</h3>
+            </div>
+        </div>
     </div>
-    <div>
-        <h2>BIENVENIDO <!-- Nombre de administrador  --></h2>
-        <h3>COMPAÑIA DE LAS CERVECERÍAS UNIDAS</h3>
-        <!-- Imagen de vaso de cerveza-->
-        <h3>SUPERADMINISTRADOR</h3>
-    </div>
-    
-
 </body>
 </html>
