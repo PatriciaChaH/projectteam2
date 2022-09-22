@@ -33,36 +33,36 @@
     </header>
     
     <main>
-        <section id:"usuarioevaluado">
-            <div class="flex-container">
-                <div class="box" style="background-color:white;color:black;padding:20px;width:200px;height:200px;left:20px;right:100px;margin:10px;text-align:center;position:relative;background-position: 10px 10px, 10px 10px;">
-                    <div class="usuarioevaluado_pinture">
-                        <img src="Image/usercircle.svg" alt="" width="50px" height="50px" position=center;>
-                    </div>
-                        <div class="knowledge_texts">
-                        <p> Usuario evaluado</p>
-                        <p> Nombre del usuario</p>
-                        <p> Cargo que ocupa</p>
-                        </div>
+        <section id:"usuarioevaluado" style="vertical-align: middle">
+            <div class="box-1" style="background-color:rgba(255, 255, 255, 1);border-radius:10px;gap:40px;color:black;display:grid;padding:20px;align-items:center;justify-content:center;width:300px;height:200px;float:left;background-position: 10px 10px, 10px 10px;margin:20px;">
+                <div class="usuarioevaluado_picture">
+                    <img src="Image/usercircle.svg" alt="" width="60px" height="60px">
                 </div>
-                <div class="box" style="background-color:white;color:black;padding:20px;width:600px;float:right;right:400px;position:relative;height:300px;background-position: 10px 10px, 10px 10px;">
-                    <h4 class="subtitle">Evaluación</h4>
-                    <p> El período a evaluar es:</p>
+                <div>
+                    <p> Usuario evaluado</p>
+                    <p> Nombre del usuario</p>
+                    <p> Cargo que ocupa</p>
+                </div>
+                
+            </div>
+            <div class="box-2" style="background-color:rgba(255, 255, 255, 1);border-radius:10px;color:black;display:grid;margin:20px;padding:20px;width:950px;left:60px;height:200px;float:left;background-position: 10px 10px, 10px 10px;">
+                <h4 class="subtitle">Evaluación</h4>
+                <p> El período a evaluar es:</p>
                
-                    <div class="box" style="background-color:rgba(231, 238, 243, 1);color:black;padding:20px;width:300px;left:60px;height:50px;background-position: 10px 10px, 10px 10px;">
-                        <p> Esta evaluación ha sido finalizada.</p>
-                    </div>
+                <div class="box-3" style="background-color:rgba(231, 238, 243, 1);text-align:left;border-radius:10px;color:black;width:900px;left:60px;height:80px;padding:20px;background-position: 10px 10px, 10px 10px;">
+                    <p> Esta evaluación ha sido finalizada.</p>
                 </div>
             </div>
+        
     
             
         </section>
     
      
         <section id:"contenedorEvaluadores">
-            <div class="box" style="background-color:white;color:black;padding:20px;width:200px;left:20px;right:200px;height:400px;background-position: 10px 10px, 0 0;">
+            <div class="box" style="background-color:white;color:black;border-radius:10px;padding:20px;width:300px;left:20px;right:200px;height:415px;margin:20px;float:left;background-position: 10px 10px, 0 0;">
                 <div class="Evaluadores_pinture">
-                <img src="./Image/usercircle.svg" alt=" " width="50px" height="60px" float=left margin-left=15px;>
+                    <img src="./Image/usercircle.svg" alt=" " width="50px" height="50px" margin-left=0px margin-right=15px;>
                 </div>
     
                 <div class="contenedor_texts" margin-right=20px;>
@@ -70,57 +70,70 @@
                     <p> Nombre evaluador </p>
                     <p> Peso:</p>
                     <p> Nota final:</p>
-                    <button>Resultado</button>
-                    <img src="./Image/usercircle.svg" alt=" " width="50px" height="60px" float=left margin-left=0px margin-right=15px;>
-                    <h4 class="subtitle">Evaluadores de apoyo</h4>
-                    <p> Nombre evaluador</p>
-                    <p> Peso:</p>
-                    <button>Borrador</button>
-                    <p> AUTOEVALUACIÓN:</p>
+                        <div class="botonR" style="padding-bottom: 20px; right:10px">
+                            <button>Resultado</button>
+                        </div>
+
+                        <div class="Imagen_segunda">
+                            <img src="./Image/usercircle.svg" alt=" " width="50px" height="50px" margin-left=0px margin-right=15px;>
+                        </div>
+
+                            <div class="Textos" style="padding-bottom:50px">
+                                <h4 class="subtitle">Evaluadores de apoyo</h4>
+                                <p> Nombre evaluador</p>
+                                <p> Peso:</p>
+                                <button>Borrador</button>
+                                <p> AUTOEVALUACIÓN:</p>
+                            </div>
                 </div>
             </div>
 
-            <section id:"resultadoeval">
-                <div class="box" style="background-color:white;color:black;padding:20px;width:200px;left:40px;right:10px;background-position: 10px 10px, 0 0;">
-                    <h4 class="subtitle">Ver resultado de evaluación</h4>
-                </div>
-            </section>
+            <div class:"box" style="background-color:white;color:black;border-radius:10px;padding:20px;width:950px;left:40px;text-align:left;margin:20px;float:left;background-position: 10px 10px, 0 0;">
+                <p>Resultado de la Evaluación</p>
+                <table id="Resultadoevaluación" style="border-collapse:collapse; width: 100%;">
+                    <tr>
+                        <th>Competencias Generales</th>
+                        <th>Peso</th>
+                        <th>Evaluación</th>
+                        <th>Balance</th>
+                    </tr>
+                    <tr>
+                        <td>Adaptabilidad</td>
+                        <td>20%</td>
+                        <td> </td>
+                        <td> <img class="imagen4t" src="Image/lineicon.svg" width="100" height="30"></td>
+                    </tr>
+                    <tr>
+                        <th>Automatización</th>
+                        <th>50%</th>
+                        <th> </th>
+                        <th> <input type="range" min="0" max="100" value="90" step="10" </th>
+                    </tr>
+                    <tr>
+                        <th>Trabajo en equipo</th>
+                        <th>30%</th>
+                        <th> </th>
+                        <th> <img class="imagen4t" src="Image/lineicon.svg" width="100" height="30"></th>
+                    </tr>
 
-            <section class:"resultadoevaluación">
-                <div class="box" style="background-color:white;color:black;padding:20px;width:400px;left:200px;float:right;margin-right:10px;background-position: 10px 10px, 0 0;">
-                    <div class="competencias generales">
-                        <h4 class="subtitle">Competencias generales</h4>
-                        <p> Adaptabilidad</p>
-                        <p> Automatización</p>
-                        <p> Trabajo en equipo</p>
-                    </div>
+                </table>
+                <div class="box" style="background-color:rgba(231, 238, 243, 1);text-align:left;border-radius:10px;color:black;padding:10px;width:900px;left:60px;height:40px;margin:20px;background-position: 10px 10px, 10px 10px;">
+                    <p> Resultado final:95%</p>
                 </div>
-            </section>
+                   
+            </div>
+        </section>
+
+        <section>
+            <div class="container" style="background-color:white;color:black;border-radius:10px;padding:10px;width:300px;left:0px;right:100px;text-align:center;margin:20px;justify-content:center;position:relative;height:40px;background-position: 10px 10px, 0 0;">
+                <h4 class="subtitle">Ver resultado de evaluación</h4>
+            </div>
         </section>
 
 
 
     </main>
-    <footer>
-        <div class="box-footer" style="background-color:white;color:black;padding:20px;background-position: 10px 10px, 0 0;">          
-            <div class="content-foo" flex-direction="column">
-                <h4>Teléfono</h4>
-                <p>9362013</p>
-            </div>
-            <div class="content-foo" flex-direction="column">
-                <h4>E-mail</h4>
-                <p>admon@ccu.co</p>
-            </div>
-            <div class="content-foo" flex-direction="column">
-                <h4>Ubicación</h4>
-                <p>Bogotá-Colombia</p>
-            </div>
 
-        </div>
-        <h4 class="titulo-final">&copy; CerveceríasCCU Design | Administración</h4>
-
-    </footer>
-    
 
 </body>
 </html>

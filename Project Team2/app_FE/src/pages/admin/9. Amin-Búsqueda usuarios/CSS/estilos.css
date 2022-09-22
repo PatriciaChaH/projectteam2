@@ -22,7 +22,7 @@ h3{ font-size: 1.5em;}
 h4{ font-size: 1em;}
 p{ font-size: 1em;}
 ul{ list-style: none;}
-li{font-size: 1.0em;}
+li{ font-size: 1.0em;}
 
 button{
     font-size: 1em;
@@ -87,7 +87,8 @@ header.nav{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 2em;
+    gap: 0em;
     text-align: right;
 }
+
 
