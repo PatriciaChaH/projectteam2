@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <style>
         table, th{
             border: 1px solid black;
@@ -21,14 +20,13 @@
 </head>
 <body>
         <div class="tab">
-            <button style="background-color:rgb(223, 209, 16); border-color:rgb(147, 155, 46); color:rgb(0, 0, 0)">Inicio</button>
+            <button>Inicio</button>
             <button>Agregar usuario</button>
             <button>Editar usuario</button>
             <button>Evaluación de empleados</button>
         </div><br>
-    <!imagen del Ingeniero>
-    <h2>Área de tecnología Ingeniero</h2>
-    <button type="submit">cerrar sessión</button>
+
+
         <div>
             Nª Documento : <input type="text" value=""><br><br>
             Fecha de evalacion: <input type="text" value=""><br><br>
@@ -39,11 +37,15 @@
                 <th>Área de excelencia</th>
             </tr>
             <tr>
-                <td></td>
+                <td>
+                    <button type="submit">Editar</button>
+                    <div id="boton-editar"</div>
+                    <button type="submit">Guardar</button>
+                    <div id="boton-guardar"</div>
+                </td>
             </tr>
         </table>
-        <button type="submit">Editar</button>
-        <button type="submit">Guardar</button>
+
         <br> <br>
 
         <table style="width: 60%;">
@@ -51,11 +53,13 @@
                 <th>Áreas de oportunidad</th>
             </tr>
             <tr>
-                <td></td>
+                <td>
+                    <button type="submit">Editar</button>
+                    <button type="submit">Guardar</button>
+                </td>
             </tr>
         </table>
-        <button type="submit">Editar</button>
-        <button type="submit">Guardar</button>
+
         <br>
 </body>
 </html>
