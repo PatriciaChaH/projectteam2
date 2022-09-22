@@ -35,20 +35,6 @@ body{
     color: black;
 } 
 
-.Descargar{
-    border-radius: 5px;
-    height: 5vh;
-    width: 13vw;
-    margin-top: 5px;
-    flex-direction: center;
-    background-color: beige;
-    font-family: 'Copse', serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 0.9em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.753);
-}
 
 
 .buttonLogOut:hover {
