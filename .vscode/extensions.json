@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "stuart.unique-window-colors"
+        "stuart.unique-window-colors",
+        "ritwickdey.LiveServer"
     ]
 }
