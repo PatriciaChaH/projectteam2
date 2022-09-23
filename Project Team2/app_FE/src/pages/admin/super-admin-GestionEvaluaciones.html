@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/styles/gestion-evaluacion.css">
+    <style>
+        /* personalizar botones principales*/
+        button {
+            border-radius: 10px;
+            background-color: transparent;
+            color: black;
+            border: 1px solid rgb(195, 205, 50);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 10px;
+            height: 28px;
+        }
+        /*centrar botones principales*/
+        div.center {
+            display: flex;
+            justify-content: right;
+        }
+        /*mas personalizado*/
+        button:hover {
+            background-color: rgb(158, 158, 36);
+            color: white;
+        }
+        /*buton cerrar sesion*/
+        .btn-cerrar-sesion{
+            border-radius: 5px;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 15px;
+            height: 24px;
+            padding: 1px 30px;
+            background-image:url(../../assets/image/sesion-close-icon.png);
+            background-size: 20px 20px;
+            background-repeat: no-repeat;
+        }
+        .btn-cerrar-sesion:hover {
+            background-color: rgb(6, 59, 233);
+            color: white;
+            
+        }
+        /*personalizacion sesion foto perfil*/
+        div.sesion-primary{
+            width: 265px;
+            height: 614px;
+            background-color: rgba(155, 167, 175, 1);
+            margin: 20px;
+            border: 1px color rgba(155, 167, 175, 1);
+            border-radius: 15px;
+        }
+        img.css-img-perfil{
+            width: 19,09px; 
+            height: 120px;
+            position: relative;
+            display: flex;
+            transform: translateY(90%);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class"center" style="transform: translateX(25%);"> 
+            <button>Inicio</button>
+            <button>Agregar Usuario</button>
+            <button>Editar Usuario</button>
+            <button>Gestión de evaluaciones</button>
+    </div>
+
+    <div class="sesion-primary">
+        <center><img class="css-img-perfil" src="../../../src/assets/image/perfil.png" alt="perfil empleado"></center>
+        <p style="font-size: 120px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; size: 20px;"><center>Área de Tecnología Ingeniero</center></p>
+        <center><button class="btn-cerrar-sesion"><u>cerrar sesión</u></button></center>
+    </div>
+    
+    <form>
+        <div class="info-perfil">
+            <label>Nª Documento :</label>
+            <input type="text" id="text-info"><br>
+            <label>Calificación del empleado :</label>
+            <input type="text" id="text-inf"><br>
+        </div>
+    </form>
+
+    <div class="TextArea">
+        <h2 id="h2-1" style="font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Retroalimentación</h2>
+        <textarea name="" id="" cols="55" rows="10"></textarea><br>
+        <center><button class="btn-Area" type="submit">Editar<button class="btn-Area" type="submit">Enviar</button></center>
+    </div>
+
+</body>
+</html>

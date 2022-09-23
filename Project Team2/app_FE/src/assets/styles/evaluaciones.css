@@ -1,0 +1,61 @@
+/*css perfil*/
+.info-perfil{
+    left: 60%;
+    position: absolute;
+    top: 20%;
+    padding: 0px;
+    right: 20px;
+    transform: translateX(-90%);
+
+}
+/*css type txt info*/
+#text-inf{
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    width: 400px;
+    height: 19px;
+    border: 0;
+    background: -moz-linear-gradient(bottom, black, while);
+}
+/*css Area de evaluacion*/
+.TextArea {
+    padding: 0;
+    margin: 20px;
+    width: 700px;
+    height: 240px;
+    position:absolute; top: 330px; left: -100px;
+    transform: translateX(60%);
+}
+/*css Area de evaluacion personalizacion*/
+textarea{
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+}
+#h2-1{
+    background-color: rgba(43, 9, 255, 0.55);
+    width: 440px;
+    color: white;
+    padding: 10px;
+}
+#h2-2{
+    background-color: rgba(221, 255, 12, 0.35);
+    width: 440px;
+    color: black;
+    padding: 10px;
+}
+.btn-Area{
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    height: 28px;
+}
+.btn-Area:hover{
+    background-color: blue;
+    color: white;
+
+}
