@@ -1,6 +1,13 @@
 body
 {
     font-family: 'Courier New', Courier, monospace;
-    color: bisque;
+}
+td{
+    background-color: azure;
+}
+table, th{
     background-color: blueviolet;
+}
+button{
+    border-radius: 1em/2em;
 }
